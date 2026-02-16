@@ -1,6 +1,6 @@
-# Projeto de Demonstração - Node.js com Prisma ORM
+# Projeto do Curso DFS-2026.1
 
-Este é um projeto de demonstração usando Node.js com Prisma ORM aula de DFS 2026.1
+Este é um projeto desenvolvido em Node.js/Express com Prisma ORM e Postgres 15, para gerenciar ofertas de conhecimentos.
 
 ## Como rodar o projeto
 
@@ -18,13 +18,7 @@ npm install
 npx prisma studio
 ```
 
-4. Execute as migrations:
-
-```bash
-npx prisma migrate dev
-```
-
-5. Inicie o projeto:
+4. Inicie o projeto:
 
 ```bash
 npm start
