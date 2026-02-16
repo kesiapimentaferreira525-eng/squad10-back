@@ -4,7 +4,7 @@ Este é um projeto de backend desenvolvido em Node.js/Express com Prisma ORM e P
 
 ## Como rodar o projeto
 
-2. Clone o repositório no GitHub:
+1. Clone o repositório no GitHub:
 
 ```bash
 git clone https://github.com/kesiapimentaferreira525-eng/squad10-back?tab=readme-ov-file#squad10-back
