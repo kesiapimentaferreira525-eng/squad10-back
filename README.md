@@ -16,14 +16,28 @@ git clone https://github.com/kesiapimentaferreira525-eng/squad10-back?tab=readme
 npm install
 ```
 
-3. Visualizar as tabelas:
+3. Crie um arquivo .env na raiz do projeto com a variável DATABASE_URL apontando para o banco de dados:
+
+```env
+DATABASE_URL="postgresql://postgres:root@localhost:5433/db_dados?schema=public"
+```
+
+4. Execute as migrations:
+
+```bash
+npx prisma migrate dev
+```
+
+5. Visualizar as tabelas:
 
 ```bash
 npx prisma studio
 ```
 
-4. Inicie o projeto:
+6. Inicie o projeto:
 
 ```bash
 npm start
 ```
+
+
